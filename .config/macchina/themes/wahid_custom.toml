@@ -1,0 +1,39 @@
+# Wahid-Custom
+
+spacing = 2
+padding = 0
+hide_ascii = false
+separator = "->"
+separator_color = "Red"
+key_color = "Green"
+
+[palette]
+type = "Full"
+glyph = " "
+visible = true
+
+[bar]
+glyph = ""
+symbol_open = "["
+symbol_close = "]"
+hide_delimiters = true
+visible = true
+
+[box]
+title = "Wahid's Macbook"
+border = "rounded"
+visible = true
+
+[box.inner_margin]
+x = 3
+y = 1
+
+[keys]
+host = "Host"
+os = "OS"
+shell = "Shell"
+terminal = "Terminal"
+cpu_load = "CPU Usage"
+memory = "Memory"
+battery = "Battery"
+

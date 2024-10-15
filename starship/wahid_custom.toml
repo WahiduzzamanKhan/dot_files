@@ -1,0 +1,70 @@
+format = '''
+[┌](fg:Green)$os$directory$git_branch$git_status
+[└](fg:Green)$character
+'''
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Set custom color palette
+palette = 'wahid'
+
+[palettes.wahid]
+Black = "#303031"
+BrightBlack = "#bec6d0"
+Blue = "#11B7D4"
+BrightBlue = "#00c3e5"
+Cyan = "#38c7bd"
+BrightCyan = "#12edde"
+Green = "#00a884"
+BrightGreen = "#00a884"
+Purple = "#d46ec0"
+BrightPurple = "#f052d1"
+Red = "#E35535"
+BrightRed = "#ff4319"
+White = "#bec6d0"
+BrightWhite = "#f9fafb"
+Yellow = "#c7910c"
+BrightYellow = "#d39600"
+
+[os]
+format = '[[$symbol](fg:Black bg:Blue) ](fg:Blue)'
+disabled = false
+
+[os.symbols]
+Macos = ''
+Windows = ''
+
+[directory]
+truncation_length = 3
+truncation_symbol = '.../'
+truncate_to_repo = true
+read_only = ''
+home_symbol = ''
+format = '[[](fg:Purple)[](fg:Black bg:Purple)[ ](fg:Purple bg:Black)]()[$path](fg:White bg:Black)[](fg:Black) '
+
+[git_branch]
+symbol = ''
+format = '[[](fg:Cyan)[$symbol](fg:Black bg:Cyan)[ ](fg:Cyan bg:Black)]()[$branch ](fg:White bg:Black)'
+
+[git_status]
+format = '[$all_status$ahead_behind](bg:Black)[](fg:Black) '
+style = 'bold Green'
+conflicted = '[ confliced=${count}](fg:Red bg:Black) '
+up_to_date = '[ up-to-date](fg:Green bg:Black) '
+untracked = '[ untracked=${count}](fg:Red bg:Black) '
+ahead = ' ahead=${count}'
+diverged = ' ahead=${ahead_count}  behind=${behind_count}'
+behind = ' behind=${count}'
+stashed = '[ stashed=${count}](fg:Green bg:Black) '
+modified = '[󱩽 modified=${count}](fg:Yellow bg:Black) '
+staged = '[󰏗 staged=${count}](fg:Green bg:Black) '
+renamed = '[󱍸 renamed=${count}](fg:Yellow bg:Black) '
+deleted = '[ deleted=${count}](fg:Red bg:Black) '
+
+[character]
+success_symbol = '[](fg:Green)'
+error_symbol = '[](fg:Red)'
+
+[line_break]
+disabled = false

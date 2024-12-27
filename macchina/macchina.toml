@@ -1,0 +1,12 @@
+theme = "wahid_custom"
+
+show = [
+	"Host",
+	"OperatingSystem",
+	"Terminal",
+	"Shell",
+	"ProcessorLoad",
+	"GPU",
+	"Memory",
+	"Battery"
+]

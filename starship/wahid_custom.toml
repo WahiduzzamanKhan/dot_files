@@ -1,5 +1,5 @@
 format = '''
-[┌](fg:Green)$os$directory$git_branch$git_status
+[┌](fg:Green)$os$directory$git_branch$git_status$rlang$nodejs$conda$python
 [└](fg:Green)$character
 '''
 
@@ -61,6 +61,25 @@ modified = '[󱩽 modified=${count}](fg:Yellow bg:Black) '
 staged = '[󰏗 staged=${count}](fg:Green bg:Black) '
 renamed = '[󱍸 renamed=${count}](fg:Yellow bg:Black) '
 deleted = '[ deleted=${count}](fg:Red bg:Black) '
+
+[rlang]
+format = '[[](fg:#276BBF)[$symbol](fg:Black bg:#276BBF)[ ](fg:#276BBF bg:Black)]()[$version](fg:White bg:Black)[](fg:Black) '
+symbol = ''
+version_format = 'v${raw}'
+
+[nodejs]
+format = '[[](fg:#417E38)[$symbol](fg:Black bg:#417E38)[ ](fg:#417E38 bg:Black)]()[$version](fg:White bg:Black)[](fg:Black) '
+symbol = '󰎙'
+version_format = 'v${raw}'
+
+[conda]
+format = '[[](fg:#43B02A)[$symbol](fg:Black bg:#43B02A)[ ](fg:#43B02A bg:Black)]()[$environment](fg:White bg:Black)[](fg:Black) '
+symbol = '󰯲'
+
+[python]
+format = '[[](fg:#FFDE57)[$symbol](fg:Black bg:#FFDE57)[ ](fg:#FFDE57 bg:Black)]()[$version $virtualenv](fg:White bg:Black)[](fg:Black) '
+symbol = '󱔎'
+python_binary = 'python3'
 
 [character]
 success_symbol = '[](fg:Green)'

@@ -11,10 +11,6 @@ export NVM_DIR="${nvm_path}"
 [ -s "${brew_opt_path}/nvm/etc/bash_completion.d/nvm" ] && \. "${brew_opt_path}/nvm/etc/bash_completion.d/nvm"
 # <<< nvm <<<
 
-# >>> starship >>>
-export STARSHIP_CONFIG="$dot_path/starship/wahid_custom.toml"
-# <<< starship <<<
-
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 plug "wintermi/zsh-starship"

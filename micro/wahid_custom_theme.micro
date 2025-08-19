@@ -1,0 +1,48 @@
+color-link default "#bec6d0"
+color-link comment "#59606B"
+color-link comment.bright "bold #59606B"
+
+color-link constant "#e35535"
+color-link constant.bool.true "#00a884"
+color-link constant.bool.false "#ff4319"
+color-link constant.string "#00a884"
+color-link constant.number "#d39600"
+color-link constant.specialChar "#c7910c"
+
+color-link identifier "#d46ec0"
+color-link identifier.class "#00c3e5"
+color-link identifier.var "#d46ec0"
+
+color-link symbol "#59606B"
+color-link symbol.constant "#f052d1"
+color-link symbol.operator "#c7910c"
+color-link symbol.tag "#11b7d4"
+color-link symbol.brackets "#c7910c"
+
+color-link statement "#38c7bd"
+
+color-link type "#00c3e5"
+color-link type.keyword "#d39600"
+
+color-link preproc "#d46ec0"
+color-link preproc.shebang "#59606B"
+
+color-link special "#12edde"
+color-link error "bold #ff4319"
+color-link todo "#f052d1"
+
+color-link gutter-error "#ff4319"
+color-link gutter-warning "#c7910c"
+
+color-link diff-added "#00a884"
+color-link diff-deleted "#ff4319"
+color-link diff-modified "#c7910c"
+
+color-link cursor-line "#1C1C1A"
+color-link line-number "#59606B"
+color-link current-line-number "#bec6d0"
+color-link selection "#c7910c,#1C1C1A"
+
+color-link statusline "#12edde,#1c1c1a"
+color-link message "#00c3e5,#1c1c1a"
+color-link error-message "bold #ff4319"

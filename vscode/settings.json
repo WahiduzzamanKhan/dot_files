@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Bearded Theme Black & Gold",
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.startupEditor": "none",
+
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "wordWrapColumn",
+
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.profiles.osx": {
+        "bash": null,
+        "tmux": null
+    },
+
+    "[r]": {
+        "editor.defaultFormatter": "Posit.air-vscode",
+        "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",<>/",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2
+    },
+
+    "git.autofetch": true,
+    "git.allowForcePush": true,
+    "gitblame.inlineMessageEnabled": true,
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "r.plot.useHttpgd": true,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "r.useRenvLibPath": true,
+    "github.copilot.nextEditSuggestions.enabled": true
+}

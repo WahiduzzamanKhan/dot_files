@@ -1,0 +1,54 @@
+{
+  "workbench.colorTheme": "Bearded Theme Black & Gold",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.editor.titleScrollbarSizing": "large",
+  "workbench.startupEditor": "none",
+
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [60, 80],
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.osx": {
+    "bash": null,
+    "tmux": null,
+  },
+
+  "git.autofetch": true,
+  "git.allowForcePush": true,
+  "gitblame.inlineMessageEnabled": true,
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "github.copilot.enable": {
+    "*": false,
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  "[r]": {
+    "editor.defaultFormatter": "Posit.air-vscode",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",<>/",
+    "editor.tabSize": 2,
+  },
+  "r.plot.backend": "httpgd",
+  "r.useRenvLibPath": true,
+
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml",
+  },
+
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "terminal.integrated.initialHint": false,
+}
